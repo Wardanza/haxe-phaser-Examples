@@ -1,0 +1,17 @@
+
+-main Main
+
+--macro include("assets/")
+# Libraries you need
+-lib haxe-phaser
+
+
+-cp src
+
+
+# Compile into a main.js file into dist/ directory
+-js bin/main.js
+
+#soon to add electron builds
+
+# To see more information: https://haxe.org/manual/compiler-usage.html
